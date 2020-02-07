@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;PostComponent.java&apos; to &apos;CursoSpring/src/main/java/com.bytecode.core.components&apos;&#x0D;&#x0A;- Original project: &apos;CursoSpring&apos;&#x0D;&#x0A;- Destination element: &apos;CursoSpring/src/main/java/com.bytecode.core.components&apos;&#x0D;&#x0A;- Original element: &apos;com.bytecode.core.beans.PostComponent.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.bytecode.core.components" element1="/src\/main\/java&lt;com.bytecode.core.beans{PostComponent.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1562772238414" units="1" version="1.0"/>
+</session>

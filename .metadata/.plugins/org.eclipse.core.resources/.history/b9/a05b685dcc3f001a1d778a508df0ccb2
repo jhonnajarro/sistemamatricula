@@ -1,0 +1,10 @@
+package com.sistemas.modelo;
+
+public class usuario {
+	private int idPersona;
+	private String razonSocial;
+	private String TipoDocumento;
+	private String NumDocumento;
+	
+	
+}

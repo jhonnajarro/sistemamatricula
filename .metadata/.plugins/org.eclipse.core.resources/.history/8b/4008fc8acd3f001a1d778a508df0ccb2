@@ -1,0 +1,36 @@
+package com.sistemas;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.sistemas.modelo.usuario;
+
+@SpringBootApplication
+public class SistemaMatriculaApplication  implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(SistemaMatriculaApplication.class, args);
+		
+		
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println("hola mundo");
+		
+		usuario user= new usuario();
+	
+		user.setIdPersona(1);
+		user.setTipoDocumento("dni");
+		user.setNumDocumento("12345678");		
+		user.setRazonSocial("jhon");
+		
+		System.out.println("codigo 			:: "+user.getIdPersona());
+		System.out.println("nombre 			:: "+user.getRazonSocial());
+		System.out.println("tipo Documento 	:: "+user.getTipoDocumento());
+		System.out.println("Numero 			:: "+user.getNumDocumento());
+	}
+	
+	
+}
